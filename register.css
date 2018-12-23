@@ -1,0 +1,94 @@
+body{
+	background:url('MistCafe.jpg')no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family:Arial;
+	color:white;
+}
+.header {
+	background: #6C6C00;
+	color: white;
+	position: center;
+	overflow:hidden;
+	width: 20%;
+	font-size: 35px;
+	margin: 0px auto;
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+	position: center;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	opacity:.8;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	background-color:green;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
+form {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	border-radius: 0px 0px 10px 10px;
+	background-color: rgba(100,100,100, .5);
+	position: center;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  margin: 2%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.input-group select{
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  margin: 2%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: #6C6C00;
+  border: none;
+  border-radius: 5px;
+}
